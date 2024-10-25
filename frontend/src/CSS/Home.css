@@ -1,0 +1,57 @@
+/* Try  */
+.bg {
+  background-color: black;
+}
+
+.title {
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  font-size: 10rem;
+}
+
+.underline--magical {
+  background-image: linear-gradient(315deg, #FFD400 0%, #FFFF00 74%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+   transform: skewX(-20deg);
+}
+.underline--magical:hover {
+  background-size: 100% 88%;
+  color:black;
+}
+
+
+
+.about {
+  font-size: 2rem;
+  line-height: 2;
+  margin: 2rem auto; /* Centers the element horizontally */
+  padding: 0 3rem; /* Adds padding on the left and right */
+  text-align: center; /* Aligns the text in the center */
+  color: white;
+}
+
+.about_title {
+  color: #FFFF00;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  .title {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+  .title {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,29 @@
+/* .App {
+  text-align: center;
+} */
+
+
+
+
+/* Style for the scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+

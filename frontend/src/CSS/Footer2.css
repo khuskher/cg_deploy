@@ -1,0 +1,21 @@
+.footer2 {
+  /* background-color: rgba(0, 0, 0, 1); */
+  background-color: transparent;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  /* margin-top: 5%; */
+}
+
+.container2 {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row2 {
+    font-size: 1.5rem;
+}
+
